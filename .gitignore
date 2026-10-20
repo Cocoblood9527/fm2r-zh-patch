@@ -1,0 +1,12 @@
+# This repository publishes only the patch a player installs. Everything else in
+# this working directory - the extraction/build toolchain, the term tables that
+# carry the game's verbatim Japanese and English script, the compiled intermediates
+# and the game install itself - stays on the build machine.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/release/
+/release/*
+!/release/FM2RZhPatch/
+!/release/FM2RZhPatch/**
